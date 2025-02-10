@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Define the datasets
+
+# liam phase 2
 dataset1 = np.array([
     [0.172, 1.0],
     [0.205, 2.2],
@@ -13,7 +15,26 @@ dataset1 = np.array([
     [0.992, 1.9],
 ])
 
+# liam phase 1
 dataset2 = np.array([
+    [0.197, 8.01],
+    [0.217, 9.71]
+])
+
+# phase 1 actual
+dataset3_actual = np.array([
+    [0.172, 1.0],
+    [0.205, 2.2],
+    [0.204, 4.0],
+    [0.082, 2.1],
+    [0.208, 2.0],
+    [0.398, 2.1],
+    [0.788, 2.1],
+    [0.992, 1.9],
+])
+
+# phase 2 actual
+dataset4_actual = np.array([
     [0.197, 8.01],
     [0.217, 9.71]
 ])
